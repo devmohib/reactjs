@@ -2,6 +2,7 @@
 - [Documentation](#documentation)
 - [Notes](#notes)
 - [create-react-app](#create-react-app)
+- [Definition](#definition)
 
 ## Set-Up
 
@@ -57,4 +58,13 @@ npm run start
 `using dev tools`
 
 inspect>components ----to see all the component which react.js project is using
+
+## Definition
+
+`COMOPNENTS:` Components are independent and reusable bits of code  
+`PROPS:` Props are arguments passed into React components  
+`STATE:` The state object is where you store property values that belong to the component
+
+hirarchy:  
+components > App.js > index.js > index.html
 
