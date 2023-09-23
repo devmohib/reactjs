@@ -3,6 +3,7 @@
 - [Notes](#notes)
 - [create-react-app](#create-react-app)
 - [Definition](#definition)
+- [Components](#components)
 
 ## Set-Up
 
@@ -67,4 +68,13 @@ inspect>components ----to see all the component which react.js project is using
 
 hirarchy:  
 components > App.js > index.js > index.html
+
+## Components
+
+Class Based Components  
+Function Based Components  
+(create-react-app uses function based components, it is easy to work with)
+
+(Naming Convention of Components)
+-Name of Components always start with `Capital Letter`
 
