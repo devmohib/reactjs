@@ -4,6 +4,7 @@
 - [create-react-app](#create-react-app)
 - [Definition](#definition)
 - [Components](#components)
+- [JSX](#jsx)
 
 ## Set-Up
 
@@ -77,4 +78,25 @@ Function Based Components
 
 (Naming Convention of Components)
 -Name of Components always start with `Capital Letter`
+
+## JSX
+
+JSX stands for JavaScript XML. JSX allows us to write HTML in React. JSX makes it easier to write and add HTML in React.
+
+-React prefers camelCase naming convention
+-class => className
+-for => htmlFor
+
+-In react, if you using JSX, it only returns one tag, more tag give an error
+-To use many tag, use `JSX Fragment``,
+
+```
+<>
+//all tags here
+<>
+```
+
+-Curly braces {}, let you bring JavaScript logic and variables into your markup
+-Babel compiles JSX down to React.createElement() calls.
+-React.createElement() performs a few checks to help you write bug-free code
 
