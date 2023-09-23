@@ -31,8 +31,8 @@ JellyFish Theme
 ## Documentation
 
 https://react.dev/  
-https://legacy.reactjs.org/docs/introducing-jsx.html
-https://devmohib.github.io/reactjs/
+https://legacy.reactjs.org/docs/introducing-jsx.html  
+https://devmohib.github.io/reactjs/  
 
 ## Notes
 
@@ -202,17 +202,17 @@ Deploymemt of `create-react-app`
 Docs:  
 https://create-react-app.dev/docs/deployment/#github-pages  
 
-`steps`
+`steps`  
 `npm run build`: It creates a build directory with a production build of your app.  
 ```
 npm run build
 ```
 
-`step-1 :` Add `homepage` to `package.json`  
+`step-1 :` Add `homepage` to package.json  
 ```
 "homepage": "https://myusername.github.io/my-app",
 ```
-`step-2 :` Install `gh-pages` and add deploy to `scripts` in package.json  
+`step-2 :` Install `gh-pages` and add deploy to scripts in package.json  
 ```
 npm install --save gh-pages
 ```
