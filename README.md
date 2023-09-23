@@ -5,6 +5,7 @@
 - [Definition](#definition)
 - [Components](#components)
 - [JSX](#jsx)
+- [Props](#props)
 - [State](#state)
 - [React-Router](#react-router)
 
@@ -132,11 +133,12 @@ Navbar.defaultProps = {
 `Hooks` are functions that let you “hook into” React state and lifecycle features from function components. Hooks don't work inside classes — they let you use React without classes.
 
 --The React `useState Hook` allows us to track state in a function component.
---State generally refers to data or properties that need to be tracking in an application.  
+--State generally refers to data or properties that need to be tracking in an application.
 
 ```
 import React, { useState } from "react";
 ```
+
 ```
 const [mode, setMode] = useState("light");
 setMode("Dark");
