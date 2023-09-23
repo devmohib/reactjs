@@ -6,6 +6,7 @@
 - [Components](#components)
 - [JSX](#jsx)
 - [State](#state)
+- [React-Router](#react-router)
 
 ## Set-Up
 
@@ -141,3 +142,47 @@ const [mode, setMode] = useState("light");
 setMode("Dark");
 ```
 
+## React Router
+
+`installation`
+
+```
+npm install react-router-dom
+or
+yarn add react-router-dom
+```
+
+`Guides`
+
+For App.js:
+
+```
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+```
+
+```
+return (
+<Router>
+<Routes>
+{/_ Define your routes using <Route> _/}
+<Route path="/" element={<Home />} />
+<Route path="/about" element={<About />} />
+{/_ Add more routes as needed _/}
+</Routes>
+</Router>
+);
+```
+
+For Components:
+
+```
+import { Link } from "react-router-dom";
+```
+
+```
+//Use This
+<Link to="/">Home</Link>
+
+//Not That
+<a href="/">Home</a>
+```
