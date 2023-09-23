@@ -7,7 +7,8 @@
 - [JSX](#jsx)
 - [Props](#props)
 - [State](#state)
-- [React-Router](#react-router)
+- [React Router](#react-router)
+- [Deployment Guide](#deployment-guide)
 
 ## Set-Up
 
@@ -31,6 +32,7 @@ JellyFish Theme
 
 https://react.dev/  
 https://legacy.reactjs.org/docs/introducing-jsx.html
+https://devmohib.github.io/reactjs/
 
 ## Notes
 
@@ -91,7 +93,7 @@ JSX stands for JavaScript XML. JSX allows us to write HTML in React. JSX makes i
 -for => htmlFor
 
 -In react, if you using JSX, it only returns one tag, more tag give an error
--To use many tag, use `JSX Fragment``,
+-To use many tag, use `JSX Fragment`,
 
 ```
 <>
@@ -175,6 +177,12 @@ return (
 );
 ```
 
+use `exact path` in Route as following:
+
+```
+<Route exact path="/" element={<Home />} />
+```
+
 For Components:
 
 ```
@@ -187,4 +195,35 @@ import { Link } from "react-router-dom";
 
 //Not That
 <a href="/">Home</a>
+```
+
+## Deployment Guide
+Deploymemt of `create-react-app`  
+Docs:  
+https://create-react-app.dev/docs/deployment/#github-pages  
+
+`steps`
+`npm run build`: It creates a build directory with a production build of your app.  
+```
+npm run build
+```
+
+`step-1 :` Add `homepage` to `package.json`  
+```
+"homepage": "https://myusername.github.io/my-app",
+```
+`step-2 :` Install `gh-pages` and add deploy to `scripts` in package.json  
+```
+npm install --save gh-pages
+```
+```
+  "scripts": {
++   "predeploy": "npm run build",
++   "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+```
+`step-3 :` Deploy the site by running `npm run deploy`  
+```
+npm run deploy
 ```
