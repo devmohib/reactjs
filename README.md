@@ -161,6 +161,9 @@ yarn add react-router-dom
 For App.js:
 
 ```
+npm install react-router-dom;
+```
+```
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 ```
 
@@ -227,3 +230,10 @@ npm install --save gh-pages
 ```
 npm run deploy
 ```
+
+## React Commponent Lifecycle
+- [Lifecycle Daigram](https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/)
+
+`Mounting` - Birth of your component
+`Update` - Growth of componet
+`Unmount` - Death of components
