@@ -30,9 +30,9 @@ JellyFish Theme
 
 ## Documentation
 
-https://react.dev/  
-https://legacy.reactjs.org/docs/introducing-jsx.html  
-https://devmohib.github.io/reactjs/  
+[react.dev](https://react.dev/)  
+[legacy.reactjs.org](https://legacy.reactjs.org/docs/introducing-jsx.html)  
+[react.mohib.co](https://devmohib.github.io/reactjs/)  
 
 ## Notes
 
@@ -41,8 +41,8 @@ https://devmohib.github.io/reactjs/
 
 ### Difference between NPM vs NPX
 
--NPM is a package manager used to install, delete, and update Javascript packages on your machine.  
--NPX is a package executer, and it is used to execute javascript packages directly, without installing them.
+- NPM is a package manager used to install, delete, and update Javascript packages on your machine.  
+- NPX is a package executer, and it is used to execute javascript packages directly, without installing them.
 
 ## create-react-app
 
@@ -81,19 +81,19 @@ Class Based Components
 Function Based Components  
 (create-react-app uses function based components, it is easy to work with)
 
-(Naming Convention of Components)
--Name of Components always start with `Capital Letter`
+(Naming Convention of Components)  
+- Name of Components always start with `Capital Letter`
 
 ## JSX
 
 JSX stands for JavaScript XML. JSX allows us to write HTML in React. JSX makes it easier to write and add HTML in React.
 
--React prefers camelCase naming convention
--class => className
--for => htmlFor
+React prefers camelCase naming convention 
+- class => className
+- for => htmlFor
 
--In react, if you using JSX, it only returns one tag, more tag give an error
--To use many tag, use `JSX Fragment`,
+- In react, if you using JSX, it only returns one tag, more tag give an error  
+- To use many tag, use `JSX Fragment`,
 
 ```
 <>
@@ -101,9 +101,9 @@ JSX stands for JavaScript XML. JSX allows us to write HTML in React. JSX makes i
 <>
 ```
 
--Curly braces {}, let you bring JavaScript logic and variables into your markup
--Babel compiles JSX down to React.createElement() calls.
--React.createElement() performs a few checks to help you write bug-free code
+- Curly braces {}, let you bring JavaScript logic and variables into your markup  
+- Babel compiles JSX down to React.createElement() calls.  
+- React.createElement() performs a few checks to help you write bug-free code  
 
 ## Props
 
@@ -131,6 +131,14 @@ Navbar.defaultProps = {
 ## State
 
 `state` is a built-in React object that is used to contain data or information about the component. A component's state can change over time; whenever it changes, the component re-renders.
+
+## Hookes
+
+Most commenly used React Hooks:  
+- useState
+- useEffect
+- useContext
+- useref
 
 `Hooks` are functions that let you “hook into” React state and lifecycle features from function components. Hooks don't work inside classes — they let you use React without classes.
 
@@ -234,6 +242,6 @@ npm run deploy
 ## React Commponent Lifecycle
 - [Lifecycle Daigram](https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/)
 
-`Mounting` - Birth of your component
-`Update` - Growth of componet
-`Unmount` - Death of components
+`Mounting` - Birth of your component  
+`Update` - Growth of componet  
+`Unmount` - Death of components  
